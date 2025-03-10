@@ -12,9 +12,7 @@
 	import Loader from '$lib/components/shared/Loader.svelte';
 	import ErrorComponent from '$lib/components/shared/Error.svelte';
 	import Notification from '$lib/components/shared/Notification.svelte';
-	import type { ServerResponse } from '$lib/api/types/response/utils';
 	import type { IPost } from '$lib/api/types/models/post';
-	import type { IPostsResponse } from '$lib/api/types/response/posts';
 
 	/**
 	 * Constants
